@@ -1,0 +1,15 @@
+Curs 1
+
+mkdir solana-training
+
+cd solana-training
+
+git init .
+
+npm init -y
+
+npm i @solana/web3.js @solana-developers/helpers esrun
+
+npx esrun generate-keypair.ts
+
+npm i dotenv
