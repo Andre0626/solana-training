@@ -1,4 +1,4 @@
-Curs 1
+*********** Curs 1 ***********
 
 mkdir solana-training
 
@@ -13,3 +13,14 @@ npm i @solana/web3.js @solana-developers/helpers esrun
 npx esrun generate-keypair.ts
 
 npm i dotenv
+
+*********** Curs 2 ***********
+
+//set solana global 
+sh -c "$(curl -sSfL https://release.solana.com/v1.18.17/install)"
+
+//setDevnet
+solana config set --url https://api.devnet.solana.com
+
+//encodare base58
+npm i bs58
