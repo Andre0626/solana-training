@@ -24,3 +24,7 @@ solana config set --url https://api.devnet.solana.com
 
 //encodare base58
 npm i bs58
+
+*********** Curs 3 ***********
+npm install @solana/spl-memo
+SystemProgram.transfer, createMemoInstruction, sendAndConfirmTransaction
