@@ -28,3 +28,8 @@ npm i bs58
 *********** Curs 3 ***********
 npm install @solana/spl-memo
 SystemProgram.transfer, createMemoInstruction, sendAndConfirmTransaction
+
+*********** Curs 4 ***********
+Step 1: Create token min -> await createMint
+Step 2: Create token account with address token generate from createMint -> await createTokenAccount\
+Step 3: Mint token to token account -> await mintTo
