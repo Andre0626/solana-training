@@ -33,3 +33,5 @@ SystemProgram.transfer, createMemoInstruction, sendAndConfirmTransaction
 Step 1: Create token min -> await createMint
 Step 2: Create token account with address token generate from createMint -> await createTokenAccount\
 Step 3: Mint token to token account -> await mintTo
+
+*********** Curs 5 ***********
